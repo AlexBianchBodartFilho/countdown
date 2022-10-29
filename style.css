@@ -111,3 +111,24 @@ h1 span{
         width: 10em;
     }
 }
+
+
+@media screen and (max-width: 768px){
+    #sonic{
+        align-items: center;
+    }
+}
+@media screen and (max-width: 600px){
+    .countdown-container, .countdown-el{
+        width: 50%;
+    }
+    .text{
+        font-size: 4rem;
+    }
+     .countdown-container span{
+        font-size: 1rem;
+    }
+    #sonic{
+        right: 300px;
+    }
+}
